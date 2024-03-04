@@ -2,6 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import React, { useState } from "react";
 import Header from "./Header";
+import Events from "./Events"
+import StatePassing from "./States";
 // Normal FUnctions
 
 // Time Complexity 
@@ -44,8 +46,45 @@ function App() {
     {id :"1" , name :"rohit" , heading:"Yes I am Rohit"},
     { id :"2" , name :"ramna" , heading:"Yes I am Raman"}
   ]
+  // Online Javascript Editor for free
+// Write, Edit and Run your Javascript code using JS Online Compiler
+
+console.log("Try programiz.pro");
+
+
+
+var expression ="Hello"
+
+
+// If else 
+// if(expression ==="Hello"){
+//     console
+//     break;
+// }
+// else if (expression =="Yes"){
+    
+// }
+// else{
+    
+// }
+// // Switch Statement 
+// switch (expression) {
+//   case "Hello":
+//     // Code to execute if expression equals value1
+//     console.log("Yes Its Me ")
+//     break;
+    
+//  case "Yes":
+//      console.log("yes");
+//      break;
+//   default:
+//     // Code to execute if no case matches
+// }
+
   return (
     <>
+    <Events/>
+    <StatePassing/>
       {/* <div className="App">
         <h1>Learn Reacr</h1>
         <div>Hello I am </div>
